@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台湾留学生サポートサイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0066cc;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #004080;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>台湾留学生サポートサイト</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">ホーム</a>
+        <a href="job.html">職業媒合</a>
+        <a href="labor-law.html">労働法規説明</a>
+        <a href="chinese-class.html">中文課程</a>
+        <a href="culture-workshop.html">台灣職場文化講座</a>
+        <a href="community.html">留学生交流区</a>
+    </nav>
+
+    <div class="container">
+        <section class="section">
+            <h2>ようこそ！</h2>
+            <p>台湾留学生サポートサイトへようこそ！このサイトでは、台湾での留学生活をサポートするための情報を提供しています。以下のリンクから各ページをご覧ください。</p>
+            <img src="https://via.placeholder.com/1200x400" alt="メインバナー">
+        </section>
+
+        <section class="section">
+            <h2>おすすめの機能</h2>
+            <ul>
+                <li><a href="job.html">職業媒合</a>: 学生向けのアルバイト情報を提供</li>
+                <li><a href="labor-law.html">労働法規説明</a>: 安心して働けるための法律情報</li>
+                <li><a href="chinese-class.html">中文課程</a>: 中国語学習プログラム</li>
+                <li><a href="culture-workshop.html">台灣職場文化講座</a>: 職場文化の理解を深める講座</li>
+                <li><a href="community.html">留学生交流区</a>: 留学生同士のコミュニティ</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>最新ニュース</h2>
+            <p>サイト更新情報やイベント情報をご確認ください。</p>
+            <img src="https://via.placeholder.com/600x300" alt="ニュース画像">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 台湾留学生サポートサイト</p>
+    </footer>
+</body>
+</html>
